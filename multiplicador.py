@@ -1,5 +1,5 @@
 n = int(input('Digite um valor: '))
-mult = 1
+s = 0
 for i in range(1, n+1):
-    mult *= i
-print(mult)
+    s += i
+print(s)
